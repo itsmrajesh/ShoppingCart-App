@@ -3,10 +3,24 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HeaderComponent } from './components/shared/header/header.component';
+import { FooterComponent } from './components/shared/footer/footer.component';
+import { NavBarComponent } from './components/shared/nav-bar/nav-bar.component';
+import { ShoppingCartComponent } from './components/shopping-cart/shopping-cart.component';
+import { FilterComponent } from './components/shopping-cart/filter/filter.component';
+import { CartComponent } from './components/shopping-cart/cart/cart.component';
+import { ProductListComponent } from './components/shopping-cart/product-list/product-list.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeaderComponent,
+    FooterComponent,
+    NavBarComponent,
+    ShoppingCartComponent,
+    FilterComponent,
+    CartComponent,
+    ProductListComponent
   ],
   imports: [
     BrowserModule,
